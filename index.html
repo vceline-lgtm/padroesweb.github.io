@@ -2,20 +2,22 @@
 <html lang="pt-BR">
 <head>
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: #f0e8e8;;
-    }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fad0da;
+}
 
 .container {
     max-width: 800px;
-    margin-left: auto;
-    padding: 20px;
-    background-color: #f8dfe6;
+    margin: 30px auto;
+    background-color: #fefdfe;
     padding: 20px;
     border-radius: 10px;
-            }
+}
+            
 
 .container {
     max-width: 800px;
@@ -86,26 +88,23 @@
             text-align: center;
         }
 
+        mark {
+    background-color: #f8a8c2;
+    color: rgb(0, 0, 0);
+    }
+
     </style>
-
-</head>
-
-     <style>
-        body {
-            font-family: Arial;
-            max-width: 700px;
-            padding-left: 20px;
-        }
-
-        p {
-            text-align: justify;
-        }
-    </style> 
 
     <style>
 li {
     margin-bottom: 20px;
 }
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 </style>
 
 </head>
@@ -113,7 +112,7 @@ li {
 <body>
 
 <div class="container">
-    
+<ul>
     <h1>⊹₊˚‧︵‿₊𝓒𝓻𝓸𝓬𝓱𝓮̂ 𝓦𝓮𝓫₊‿︵‧˚₊⊹</h1>
     <h2>𝐴𝑟𝑡𝑒, 𝑐𝑟𝑖𝑎𝑡𝑖𝑣𝑖𝑑𝑎𝑑𝑒 𝑒 𝑟𝑒𝑙𝑎𝑥𝑎𝑚𝑒𝑛𝑡𝑜</h2>
         
@@ -133,10 +132,13 @@ li {
 <img src="separador de paginas.jpg.png" alt="Separador de páginas de crochê">
     
 
-    <h2>๋ ࣭ ⭑ 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑖𝑠 𝑏á𝑠𝑖𝑐𝑜𝑠 ๋ ࣭ ⭑</h2>
+    <h2>๋ 
+        ࣭ ⭑ 𝑀𝑎𝑡𝑒𝑟𝑖𝑎𝑖𝑠 𝑏á𝑠𝑖𝑐𝑜𝑠 ๋ ࣭ ⭑</h2>
     <ul>
         <li>
-            <h3>𖹭: Agulha de crochê</h3>
+            <h3>
+                <mark>𖹭: Agulha de crochê</mark>
+            </h3>
             <img src="agulha_de_croche_soft_2165_1_20200928165057.jpg.webp" alt="Agulha de crochê">
             <p>
                 <h4>Cada agulha tem um tamanho específico para cada espessura de fio</h4>
@@ -153,7 +155,9 @@ li {
 
         <li>
         
-            <h3>𖹭: Fios ou linhas</h3>
+            <h3>
+                <mark>𖹭: Fios ou linhas</mark>
+            </h3>
             <img src="capa-site-kit-linha.jpg.jpg" alt="Fios ou linhas de crochê">
             <p>
                 <h4>Os fios/linhas servem para criar as peças de crochê,cada uma delas
@@ -202,7 +206,9 @@ li {
             </li>
 
 
-        <li><h3>𖹭: Tesouras</h3></li>
+        <li><h3>
+            <mark>𖹭: Tesouras</mark>
+        </h3></li>
         <img src="tesourascroche.jpg" alt="Tesouras de crochê">
             <p>
                 <h4>são utilizadas para cortar os fios durante e após o trabalho, ajudando no 
@@ -227,7 +233,9 @@ li {
             </p>
 
 
-        <li><h3>𖹭: Agulha de tapeçaria</h3></li>
+        <li><h3>
+            <mark>𖹭: Agulha de tapeçaria</mark>
+        </h3></li>
         <img src="agulhatapeçariaa.jpg" alt="Agulha de tapeçaria para crochê">
         
             <p>
@@ -295,6 +303,12 @@ li {
             <td>exige técnica, contagem e precisão</td>
             <td>longo (1 semana ou mais)</td>
         </tr>
+
+        <tr>
+        <td colspan="5">
+        <strong>Aviso:</strong> Alguns projetos podem exigir mais prática.
+        </td>
+        </tr>
          
     </table>
 
@@ -308,5 +322,27 @@ li {
     </p>
 
     </div>
+
+    <h2>Contato</h2>
+
+<form>
+
+    <label for="nome">
+        <b>Nome:</b>
+    </label>
+    <input type="text" id="nome">
+
+    <br><br>
+
+    <label for="mensagem">
+        <b>Mensagem:</b>
+    </label>
+    <textarea id="mensagem"></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+
+</form>
 </body>
 </html>
