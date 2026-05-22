@@ -88,6 +88,15 @@
             text-align: center;
         }
 
+        label {
+            color: #f3628d;
+        }
+
+        button {
+            background-color: #f3628d;
+            color: white;
+        }
+
         mark {
     background-color: #f8a8c2;
     color: rgb(0, 0, 0);
@@ -323,26 +332,21 @@ form {
 
     </div>
 
-    <h2>Contato</h2>
+    <h2> ๋ ࣭ ⭑Fale Conosco ๋ ࣭ ⭑</h2>
+    <fieldset>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
 
-<form>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
 
-    <label for="nome">
-        <b>Nome:</b>
-    </label>
-    <input type="text" id="nome">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="8" required></textarea>
 
-    <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
 
-    <label for="mensagem">
-        <b>Mensagem:</b>
-    </label>
-    <textarea id="mensagem"></textarea>
-
-    <br><br>
-
-    <button type="submit">Enviar</button>
-
-</form>
 </body>
 </html>
